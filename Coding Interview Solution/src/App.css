@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  margin: 0 5px;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.Stacks-logo {
+  height: 20vmin;
+  pointer-events: none;
+} 
+
+@media (max-width: 991px) {
+	.Carousel {
+		display: none;
+	}
+} 
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .Stacks-logo {
+    animation: Stacks-logo-spin infinite 20s linear;
+  }
+}
+
+.Stacks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.App-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  flex: 5; 
+  margin: 0 10px;
+}
+
+.App-link {
+  color: #61dafb;
+} 
+
+.Assessment1-content {
+  display: flex;
+  flex: 2; 
+  margin: 0 10px; 
+  flex-direction: row;
+  flex-wrap: wrap; 
+
+}
+
+.AssessmentInfo {
+  border-radius: 15px;
+  border: solid #61dafb 2px;
+} 
+
+.CodeOutput { 
+  background-color: black;
+  color-scheme: #61dafb;
+} 
+
+@media (max-width: 767px) {
+  .CodeSolution, .AssessmentInfo { 
+    width: 50%;
+  }
+}
+
+@keyframes Stacks-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

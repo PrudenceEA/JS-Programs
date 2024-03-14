@@ -1,0 +1,16 @@
+body { 
+  background-color: whitesmoke;
+  color: black;
+  margin: 0; 
+  font-size: 15px; 
+  border-radius: 3px;
+  font-family: Poppins, Helvetica, 'Segoe UI', 'Oxygen', 
+  'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, 'Courier New',
+    monospace;
+}
